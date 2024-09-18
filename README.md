@@ -23,7 +23,7 @@ This project demonstrates the integration of a GenAI model with an Express.js ba
    ```
    !ngrok authtoken YOUR_AUTH_KEY
    ```
-   ```
+   ```python
     from transformers import pipeline, AutoModelForCausalLM, AutoTokenizer
 
     model_name = "microsoft/DialoGPT-medium"
